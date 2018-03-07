@@ -3,7 +3,7 @@
 ### Iniciado
 - `react-native init nomedoprojeto`
 - Crie uma pasta chamada src dentro da raiz do projeto
-- Crie as pastas components, config e styles dentro da pasta src
+- Crie as pastas components, config, pages e styles dentro da pasta src
 - Mova o arquivo app.js para dentro da pasta src
 - Depois de mover renomeie o arquivo app.js para index.js
 - Rode o projeto no emulador para verificar se está tudo ok `react-native run-ios ou run-android`
@@ -30,4 +30,14 @@
 
 ### Configurando o Babel Module Resolver
 - Comando: `yarn add babel-plugin-module-resolver eslint-import-resolver-babel-module --dev`
-- Depois altere o arquivo .babelrc que fica na raiz do projeto, [veja como]()
+- Depois altere o arquivo .babelrc que fica na raiz do projeto, [veja como](https://github.com/leandrodavimg/Estrutura-de-um-projeto-react-native/blob/master/babel.txt)
+
+### Configurando o propTypes
+- Comando: `yarn add prop-types`
+
+### Configurando os estilos globais
+- dentro da pasta src/styles crie 4 arquivos.
+- [index.js]()
+- [general.js]()
+- [metrics.js]()
+- [colors.js]()
