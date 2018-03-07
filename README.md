@@ -37,7 +37,9 @@
 
 ### Configurando os estilos globais
 - dentro da pasta src/styles crie 4 arquivos.
-- [index.js]()
-- [general.js]()
-- [metrics.js]()
-- [colors.js]()
+- [index.js](https://github.com/leandrodavimg/Estrutura-de-um-projeto-react-native/blob/master/index.js)
+- [general.js](https://github.com/leandrodavimg/Estrutura-de-um-projeto-react-native/blob/master/general.js)
+- [metrics.js](https://github.com/leandrodavimg/Estrutura-de-um-projeto-react-native/blob/master/metrics.js)
+- [colors.js](https://github.com/leandrodavimg/Estrutura-de-um-projeto-react-native/blob/master/colors.js)
+
+# Configurando REDUX
