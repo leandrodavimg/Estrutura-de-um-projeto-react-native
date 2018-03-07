@@ -1,0 +1,21 @@
+Adicione esse código no .babelrc 
+{
+  "presets": ["react-native"],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "cwd": "babelrc",
+        "root": ["./src"],
+        "extensions": [".js", ".ios.js", ".android.js"]
+      }
+    ]
+  ]
+}
+
+Adcione esse código do arquivo .eslintrc antes do item global
+"settings": {
+    "import/resolver": {
+        "babel-module": {}
+    }
+},
