@@ -51,3 +51,4 @@
 - Crie um index.js dentro da pasta ducks e sagas
 - Instale duas dependências redux: `yarn add redux react-redux`
 - Instale o axios e o Redux-saga: `yarn add axios redux-saga`
+- Crie uma pasta chamada services dentro de src e dentro crie um index com a [seguinte configuração]() 
