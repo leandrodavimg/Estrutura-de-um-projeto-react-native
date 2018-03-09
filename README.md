@@ -42,4 +42,11 @@
 - [metrics.js](https://github.com/leandrodavimg/Estrutura-de-um-projeto-react-native/blob/master/metrics.js)
 - [colors.js](https://github.com/leandrodavimg/Estrutura-de-um-projeto-react-native/blob/master/colors.js)
 
-# Configurando REDUX
+# Configurando REDUX e REDUX-SAGA
+- Crie uma pasta chamada store dentro de src
+- Crie um arquivo index.js dentro da pasta store, configure o index com o [seguinte código]()
+- Crie uma pasta chamada ducks dentro da pasta store
+- Crie uma pasta chamada sagas dentro da pasta store
+- Configure o index da raiz com a tag <Provider>
+- Crie um index.js dentro da pasta ducks e sagas
+- Instale duas dependências redux: `yarn add redux react-redux`
