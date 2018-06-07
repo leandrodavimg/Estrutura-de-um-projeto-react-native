@@ -54,3 +54,8 @@
 - Instale o axios e o Redux-saga: `yarn add axios redux-saga`
 - Crie uma pasta chamada services dentro de src e dentro crie um index com a [seguinte configuração](https://github.com/leandrodavimg/Estrutura-de-um-projeto-react-native/blob/master/axios.js) 
 - Instale as dependencias: `yarn add reactotron-redux reactotron-redux-saga`
+
+# Configurando o ReactNavigation
+- Instale o ReactNavigation: yarn add react-navigation
+- Crie um arquivo chamado: routes.js dentro da pasta src [código do routes.js](https://github.com/leandrodavimg/Estrutura-de-um-projeto-react-native/blob/master/routes.js)
+- Criar a seguinte estrutura dentro da pasta pages [download](https://github.com/leandrodavimg/Estrutura-de-um-projeto-react-native/blob/master/pages.zip)
