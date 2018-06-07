@@ -1,15 +1,12 @@
-import 'config/ReactotronConfig';
-
-import React from 'react';
+import './config/ReactotronConfig';
+import React, { Component } from 'react';
 import { Provider } from 'react-redux';
-import Router from 'navigation';
-
+import createNavigator from 'routes';
 import store from 'store';
 
-const App = () => (
-  <Provider store={store}>
-    <Router />
-  </Provider>
-);
-
-export default App;
+export default class App extends Component {
+  render() {
+    const Routes = createNavigator();
+    return (<Provider store={store}><Routes /></Provider>);
+  }
+}
