@@ -49,7 +49,7 @@
 - Crie uma pasta chamada sagas dentro da pasta store
 - Configure o index da raiz com a tag `<Provider>` [exemplo index com redux](https://github.com/leandrodavimg/Estrutura-de-um-projeto-react-native/blob/master/index-com-redux.js)
 - Crie um index.js dentro da pasta ducks, [veja o código](https://github.com/leandrodavimg/Estrutura-de-um-projeto-react-native/blob/master/ducks-index.js)
-- Ainda dentro da pasta ducks crie um arquivo chamado sample.js com o [seguinte código] (https://github.com/leandrodavimg/Estrutura-de-um-projeto-react-native/blob/master/ducks-sample.js)
+- Ainda dentro da pasta ducks crie um arquivo chamado sample.js com o [seguinte código](https://github.com/leandrodavimg/Estrutura-de-um-projeto-react-native/blob/master/ducks-sample.js)
 - Crie um arquivo index.js dentro da pasta sagas, [veja o código](https://github.com/leandrodavimg/Estrutura-de-um-projeto-react-native/blob/master/saga-index.js)
 - Instale duas dependências redux: `yarn add redux react-redux`
 - Instale o axios e o Redux-saga: `yarn add axios redux-saga`
