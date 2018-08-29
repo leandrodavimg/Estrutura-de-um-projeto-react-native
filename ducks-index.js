@@ -1,9 +1,7 @@
 import { combineReducers } from 'redux';
 
-import nav from 'navigation/reducer';
-import favorites from './favorites';
+import sample from './sample';
 
 export default combineReducers({
-  nav,
-  favorites,
+  sample,
 });
