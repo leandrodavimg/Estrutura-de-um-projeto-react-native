@@ -1,5 +1,4 @@
 import { createStore, applyMiddleware } from 'redux';
-import { middleware as navMiddleware } from 'navigation';
 import createSagaMiddleware from 'redux-saga';
 
 import sagas from './sagas';
@@ -9,7 +8,6 @@ const sagaMonitor = __DEV__ ? console.tron.createSagaMonitor() : null;
 const sagaMiddleware = createSagaMiddleware({ sagaMonitor });
 
 const middleware = [
-  navMiddleware,
   sagaMiddleware,
 ];
 
