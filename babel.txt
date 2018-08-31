@@ -16,6 +16,9 @@ Adicione esse código no .babelrc
 Adcione esse código do arquivo .eslintrc antes do item global
 "settings": {
     "import/resolver": {
-        "babel-module": {}
+        "babel-module": {},
+        "node": {
+          "paths": ["src"]
+        }
     }
 },
