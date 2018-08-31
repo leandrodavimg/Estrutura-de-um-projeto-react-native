@@ -10,8 +10,7 @@
 
 ### Instalando o Eslint
 - Comando: `npm info "eslint-config-airbnb@latest" peerDependencies`
-    vai gerar o seguinte [código](https://github.com/leandrodavimg/Estrutura-de-um-projeto-react-native/blob/master/eslint.txt).
-    Copie esse código para o arquivo packge,json dentro de devDependencies
+    Copie esse código para o arquivo `packge.json` dentro de devDependencies
     Nota: é necessário ter a extensão do eslint instalada no seu editor de texto.
 - Comando: `yarn` -> para instalar as dependencias.
 - Comando: `yarn add babel-eslint eslint-config-airbnb eslint-plugin-react-native --dev`
@@ -47,7 +46,7 @@
 - Crie um arquivo index.js dentro da pasta store, configure o index com o [seguinte código](https://github.com/leandrodavimg/Estrutura-de-um-projeto-react-native/blob/master/store-index.js)
 - Crie uma pasta chamada ducks dentro da pasta store
 - Crie uma pasta chamada sagas dentro da pasta store
-- Configure o index da raiz com a tag `<Provider>` [exemplo index com redux](https://github.com/leandrodavimg/Estrutura-de-um-projeto-react-native/blob/master/index-com-redux.js)
+- Configure o index do `src` com a tag `<Provider>` [exemplo index com redux](https://github.com/leandrodavimg/Estrutura-de-um-projeto-react-native/blob/master/index-com-redux.js)
 - Crie um index.js dentro da pasta ducks, [veja o código](https://github.com/leandrodavimg/Estrutura-de-um-projeto-react-native/blob/master/ducks-index.js)
 - Ainda dentro da pasta ducks crie um arquivo chamado sample.js com o [seguinte código](https://github.com/leandrodavimg/Estrutura-de-um-projeto-react-native/blob/master/ducks-sample.js)
 - Crie um arquivo index.js dentro da pasta sagas, [veja o código](https://github.com/leandrodavimg/Estrutura-de-um-projeto-react-native/blob/master/saga-index.js)
